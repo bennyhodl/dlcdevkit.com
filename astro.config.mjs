@@ -22,7 +22,16 @@ export default defineConfig({
 				{
 					label: 'Getting Started',
 					items: [
-						{ label: "API Reference", link: "/getting-started/api/"}
+						{ label: "Quickstart", link: "/getting-started/quickstart/"}
+					]
+				},
+				{
+					label: 'Custom DDK',
+					items: [
+						{label: "Overview", link: "/custom-ddk/overview"},
+						{label: "Transport", link: "/custom-ddk/transport"},
+						{label: "Storage", link: "/custom-ddk/storage"},
+						{label: "Oracle", link: "/custom-ddk/oracle"},
 					]
 				},
 			],
